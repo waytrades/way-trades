@@ -25,7 +25,7 @@ function App() {
               Join The Way to Trading Success
             </p>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl animate-slide-in-up animation-delay-300">
-              Master the art of trading with expert guidance, comprehensive courses, and a supportive community. Whether you're a beginner or looking to refine your technical analysis skills, we've got you covered.
+              Master the art of trading with expert guidance, comprehensive courses, and a supportive community. Whether you're a beginner or a struggling intermediate, we've got you covered.
             </p>
           </div>
         </div>
