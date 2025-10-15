@@ -73,8 +73,7 @@ function App() {
                 </ul>
                 <Button 
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-                  onClick={() => window.open('https://whop.com/waytrades/free-access-c6/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673', '_blank')}
-                >
+                  onClick={() => window.open('https://discord.gg/rCqguDmA', '_blank')}             >
                   Join Free Community
                 </Button>
               </CardContent>
