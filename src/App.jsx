@@ -258,7 +258,7 @@ function App() {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2024 Way Trades. All rights reserved.
+            © 2025 Way Trades. All rights reserved.
           </p>
           <p className="text-muted-foreground mt-2">
             Join The Way to Trading Success
