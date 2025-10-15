@@ -114,10 +114,17 @@ function App() {
                   </li>
                 </ul>
                 <Button 
-                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
+                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold mb-2"
                   onClick={() => window.open('https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673', '_blank')}
                 >
                   Get VIP Access
+                </Button>
+                <Button 
+                  variant="outline"
+                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.open('https://whop.com/waytrades/3-day-trial-to-vip-access/', '_blank')}
+                >
+                  Start 3-Day VIP Trial
                 </Button>
               </CardContent>
             </Card>
