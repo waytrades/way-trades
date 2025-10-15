@@ -158,7 +158,7 @@ function App() {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/SLr3zwyzDno"
+                    src="https://www.youtube.com/embed/cq9TnguBkH8"
                     title="Beginners Course"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -172,7 +172,7 @@ function App() {
                 <Button 
                   variant="outline"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.open('https://youtu.be/SLr3zwyzDno?feature=shared', '_blank')}
+                  onClick={() => window.open("https://youtu.be/cq9TnguBkH8?feature=shared", "_blank")}
                 >
                   Watch on YouTube
                 </Button>
@@ -192,7 +192,7 @@ function App() {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/cq9TnguBkH8"
+                    src="https://www.youtube.com/embed/SLr3zwyzDno"
                     title="Technical Analysis Course"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -206,7 +206,7 @@ function App() {
                 <Button 
                   variant="outline"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  onClick={() => window.open('https://youtu.be/cq9TnguBkH8?feature=shared', '_blank')}
+                  onClick={() => window.open("https://youtu.be/SLr3zwyzDno?feature=shared", "_blank")}
                 >
                   Watch on YouTube
                 </Button>
