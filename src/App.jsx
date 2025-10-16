@@ -118,6 +118,9 @@ function App() {
                 >
                   Get VIP Access
                 </Button>
+                <p className="text-sm text-muted-foreground text-center mt-2">
+                  Includes a 3-day free trial for VIP access!
+                </p>
 
               </CardContent>
             </Card>
