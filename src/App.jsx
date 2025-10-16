@@ -200,7 +200,13 @@ function App() {
                 <p className="text-muted-foreground">
                   Dive deep into technical indicators, chart patterns, and advanced strategies to make informed trading decisions.
                 </p>
-
+                <Button 
+                  variant="outline"
+                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.open("https://youtu.be/SLr3zwyzDno?feature=shared", "_blank")}
+                >
+                  Watch on YouTube
+                </Button>
               </CardContent>
             </Card>
           </div>
