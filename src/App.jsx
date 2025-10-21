@@ -151,24 +151,23 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video rounded-lg overflow-hidden bg-muted">
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src="https://www.youtube.com/embed/cq9TnguBkH8"
-                    title="Beginners Course"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                  ></iframe>
+                <div className="relative aspect-video rounded-lg overflow-hidden bg-muted group cursor-pointer"
+                  onClick={() => window.open("https://youtu.be/cq9TnguBkH8?feature=shared", "_blank")}
+                >
+                  <img
+                    src="https://img.youtube.com/vi/cq9TnguBkH8/hqdefault.jpg"
+                    alt="Beginners Course Thumbnail"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-colors duration-300">
+                    <Youtube className="w-16 h-16 text-white" />
+                  </div>
                 </div>
                 <p className="text-muted-foreground">
                   Learn the essential concepts, terminology, and strategies to start your trading journey with confidence.
                 </p>
                 <Button 
-                  variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
                   onClick={() => window.open("https://youtu.be/cq9TnguBkH8?feature=shared", "_blank")}
                 >
                   Watch on YouTube
@@ -185,24 +184,23 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="aspect-video rounded-lg overflow-hidden bg-muted">
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src="https://www.youtube.com/embed/SLr3zwyzDno"
-                    title="Technical Analysis Course"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                  ></iframe>
+                <div className="relative aspect-video rounded-lg overflow-hidden bg-muted group cursor-pointer"
+                  onClick={() => window.open("https://youtu.be/SLr3zwyzDno?feature=shared", "_blank")}
+                >
+                  <img
+                    src="https://img.youtube.com/vi/SLr3zwyzDno/hqdefault.jpg"
+                    alt="Technical Analysis Course Thumbnail"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-colors duration-300">
+                    <Youtube className="w-16 h-16 text-white" />
+                  </div>
                 </div>
                 <p className="text-muted-foreground">
                   Dive deep into technical indicators, chart patterns, and advanced strategies to make informed trading decisions.
                 </p>
                 <Button 
-                  variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
                   onClick={() => window.open("https://youtu.be/SLr3zwyzDno?feature=shared", "_blank")}
                 >
                   Watch on YouTube
