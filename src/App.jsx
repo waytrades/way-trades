@@ -150,7 +150,7 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <a href="https://youtu.be/cq9TnguBkH8?feature=shared" target="_blank" rel="noopener noreferrer" className="block relative group">
-                  <img src="https://img.youtube.com/vi/cq9TnguBkH8/maxresdefault.jpg" alt="Technical Analysis Course Thumbnail" className="w-full h-auto rounded-lg" />
+                  <img src="https://img.youtube.com/vi/cq9TnguBkH8/hqdefault.jpg" alt="Technical Analysis Course Thumbnail" className="w-full h-auto rounded-lg" />
                   <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
                     <div className="bg-red-600 rounded-full p-4">
                       <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -182,7 +182,7 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <a href="https://youtu.be/SLr3zwyzDno?feature=shared" target="_blank" rel="noopener noreferrer" className="block relative group">
-                  <img src="https://img.youtube.com/vi/SLr3zwyzDno/maxresdefault.jpg" alt="Beginners Course Thumbnail" className="w-full h-auto rounded-lg" />
+                  <img src="https://img.youtube.com/vi/SLr3zwyzDno/hqdefault.jpg" alt="Beginners Course Thumbnail" className="w-full h-auto rounded-lg" />
                   <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
                     <div className="bg-red-600 rounded-full p-4">
                       <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -222,7 +222,7 @@ function App() {
             <Button
               size="lg"
               className="flex items-center gap-3 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold px-8 py-6 text-lg hover-lift"
-              onClick={() => window.open('https://www.instagram.com/waytrades/', '_blank' )}
+              onClick={() => window.open('https://www.instagram.com/way_trades?igsh=MXZoOWg4dGF6ZG5vYg%3D%3D&utm_source=qr', '_blank' )}
             >
               <Instagram className="w-6 h-6" />
               Instagram
@@ -242,7 +242,7 @@ function App() {
             <Button
               size="lg"
               className="flex items-center gap-3 bg-black hover:bg-gray-800 text-white font-semibold px-8 py-6 text-lg hover-lift"
-              onClick={() => window.open('https://www.tiktok.com/@waytrades', '_blank' )}
+              onClick={() => window.open('https://www.tiktok.com/@way_trades', '_blank' )}
             >
               <Music2 className="w-6 h-6" />
               TikTok
