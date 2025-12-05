@@ -25,14 +25,14 @@ function App() {
               Join The Way to Trading Success
             </p>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl animate-slide-in-up animation-delay-300">
-              Master the art of trading with expert guidance, comprehensive courses, and a supportive community. Whether you're a beginner or a struggling intermediate, we've got you covered.
+              This community was built with one goal in mind and that is to create consistent and disciplined traders who are able to take the knowledge and skillsets they've accumulated from our resources and expertise to be able to do it on their own. Wether you're a brand new trader or a struggling intermediate, we've got you covered.
             </p>
           </div>
         </div>
       </header>
 
       {/* Discord Servers Section */}
-      <section className="py-8 md:py-12 bg-card/30">
+      <section className="py-16 md:py-24 bg-card/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center justify-center gap-3">
@@ -73,7 +73,8 @@ function App() {
                 </ul>
                 <Button 
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-                  onClick={() => window.open('https://discord.gg/rCqguDmA', '_blank')}             >
+                  onClick={() => window.open('https://whop.com/waytrades/free-access-c6/', '_blank' )}
+                >
                   Join Free Community
                 </Button>
               </CardContent>
@@ -112,16 +113,13 @@ function App() {
                     <span>Priority support and personalized guidance</span>
                   </li>
                 </ul>
+                <p className="text-center text-primary font-bold text-lg mb-4">INCLUDES A 3-DAY FREE TRIAL FOR VIP ACCESS!</p>
                 <Button 
-                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold mb-2"
-                  onClick={() => window.open('https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673', '_blank')}
+                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
+                  onClick={() => window.open('https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673', '_blank' )}
                 >
                   Get VIP Access
                 </Button>
-                <p className="text-sm text-muted-foreground text-center mt-2">
-                  Includes a 3-day free trial for VIP access!
-                </p>
-
               </CardContent>
             </Card>
           </div>
@@ -134,7 +132,7 @@ function App() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 flex items-center justify-center gap-3">
               <BookOpen className="w-8 h-8 text-primary" />
-              Educational Courses
+              Free Educational Courses
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Comprehensive video courses designed to take you from beginner to advanced trader.
@@ -142,7 +140,7 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {/* Beginners Course */}
+            {/* Beginners Course (Shows Technical Analysis Video) */}
             <Card className="hover-lift border-2 border-border hover:border-primary/50 transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl">Beginners Course</CardTitle>
@@ -151,31 +149,30 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="relative aspect-video rounded-lg overflow-hidden bg-muted group cursor-pointer"
-                  onClick={() => window.open("https://youtu.be/cq9TnguBkH8?feature=shared", "_blank")}
-                >
-                  <img
-                    src="https://img.youtube.com/vi/cq9TnguBkH8/hqdefault.jpg"
-                    alt="Beginners Course Thumbnail"
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-colors duration-300">
-                    <Youtube className="w-16 h-16 text-white" />
+                <a href="https://youtu.be/cq9TnguBkH8?feature=shared" target="_blank" rel="noopener noreferrer" className="block relative group">
+                  <img src="https://img.youtube.com/vi/cq9TnguBkH8/maxresdefault.jpg" alt="Technical Analysis Course Thumbnail" className="w-full h-auto rounded-lg" />
+                  <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
+                    <div className="bg-red-600 rounded-full p-4">
+                      <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <p className="text-muted-foreground">
                   Learn the essential concepts, terminology, and strategies to start your trading journey with confidence.
                 </p>
                 <Button 
-                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
-                  onClick={() => window.open("https://youtu.be/cq9TnguBkH8?feature=shared", "_blank")}
+                  variant="outline"
+                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={( ) => window.open('https://youtu.be/cq9TnguBkH8?feature=shared', '_blank' )}
                 >
                   Watch on YouTube
                 </Button>
               </CardContent>
             </Card>
 
-            {/* Technical Analysis Course */}
+            {/* Technical Analysis Course (Shows Beginners Video) */}
             <Card className="hover-lift border-2 border-border hover:border-primary/50 transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl">Technical Analysis Course</CardTitle>
@@ -184,24 +181,23 @@ function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="relative aspect-video rounded-lg overflow-hidden bg-muted group cursor-pointer"
-                  onClick={() => window.open("https://youtu.be/SLr3zwyzDno?feature=shared", "_blank")}
-                >
-                  <img
-                    src="https://img.youtube.com/vi/SLr3zwyzDno/hqdefault.jpg"
-                    alt="Technical Analysis Course Thumbnail"
-                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-colors duration-300">
-                    <Youtube className="w-16 h-16 text-white" />
+                <a href="https://youtu.be/SLr3zwyzDno?feature=shared" target="_blank" rel="noopener noreferrer" className="block relative group">
+                  <img src="https://img.youtube.com/vi/SLr3zwyzDno/maxresdefault.jpg" alt="Beginners Course Thumbnail" className="w-full h-auto rounded-lg" />
+                  <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
+                    <div className="bg-red-600 rounded-full p-4">
+                      <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <p className="text-muted-foreground">
                   Dive deep into technical indicators, chart patterns, and advanced strategies to make informed trading decisions.
                 </p>
                 <Button 
-                  className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
-                  onClick={() => window.open("https://youtu.be/SLr3zwyzDno?feature=shared", "_blank")}
+                  variant="outline"
+                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={( ) => window.open('https://youtu.be/SLr3zwyzDno?feature=shared', '_blank' )}
                 >
                   Watch on YouTube
                 </Button>
@@ -226,27 +222,27 @@ function App() {
             <Button
               size="lg"
               className="flex items-center gap-3 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold px-8 py-6 text-lg hover-lift"
-              onClick={() => window.open('https://www.instagram.com/way_trades?igsh=MXZoOWg4dGF6ZG5vYg%3D%3D&utm_source=qr', '_blank')}
+              onClick={() => window.open('https://www.instagram.com/waytrades/', '_blank' )}
             >
               <Instagram className="w-6 h-6" />
               Instagram
             </Button>
-
+            
             {/* YouTube */}
             <Button
               size="lg"
               className="flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-6 text-lg hover-lift"
-              onClick={() => window.open('https://www.youtube.com/@waytrades', '_blank')}
+              onClick={() => window.open('https://www.youtube.com/@waytrades', '_blank' )}
             >
               <Youtube className="w-6 h-6" />
               YouTube
             </Button>
-
+            
             {/* TikTok */}
             <Button
               size="lg"
-              className="flex items-center gap-3 bg-black hover:bg-gray-900 text-white font-semibold px-8 py-6 text-lg hover-lift"
-              onClick={() => window.open('https://www.tiktok.com/@way_trades?_t=ZT-90YcAqRFDWB&_r=1', '_blank')}
+              className="flex items-center gap-3 bg-black hover:bg-gray-800 text-white font-semibold px-8 py-6 text-lg hover-lift"
+              onClick={() => window.open('https://www.tiktok.com/@waytrades', '_blank' )}
             >
               <Music2 className="w-6 h-6" />
               TikTok
@@ -259,7 +255,7 @@ function App() {
       <footer className="py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © 2025 Way Trades. All rights reserved.
+            © 2026 Way Trades. All rights reserved.
           </p>
           <p className="text-muted-foreground mt-2">
             Join The Way to Trading Success
@@ -271,4 +267,3 @@ function App() {
 }
 
 export default App
-
