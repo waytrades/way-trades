@@ -150,14 +150,9 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <a href="https://youtu.be/cq9TnguBkH8?feature=shared" target="_blank" rel="noopener noreferrer" className="block relative group">
-                  <img src="https://img.youtube.com/vi/cq9TnguBkH8/hqdefault.jpg" alt="Technical Analysis Course Thumbnail" className="w-full h-auto rounded-lg" />
-                  <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
-                    <div className="bg-red-600 rounded-full p-4">
-                      <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
+                  <div className="w-full h-48 bg-gray-800 rounded-lg flex items-center justify-center group-hover:bg-gray-700 transition-colors">
+                  <Youtube className="w-20 h-20 text-red-600 group-hover:scale-110 transition-transform" />
+                </div>
                 </a>
                 <p className="text-muted-foreground">
                   Learn the essential concepts, terminology, and strategies to start your trading journey with confidence.
@@ -182,14 +177,9 @@ function App() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <a href="https://youtu.be/SLr3zwyzDno?feature=shared" target="_blank" rel="noopener noreferrer" className="block relative group">
-                  <img src="https://img.youtube.com/vi/SLr3zwyzDno/hqdefault.jpg" alt="Beginners Course Thumbnail" className="w-full h-auto rounded-lg" />
-                  <div className="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-50 transition-all flex items-center justify-center">
-                    <div className="bg-red-600 rounded-full p-4">
-                      <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
+                  <div className="w-full h-48 bg-gray-800 rounded-lg flex items-center justify-center group-hover:bg-gray-700 transition-colors">
+                  <Youtube className="w-20 h-20 text-red-600 group-hover:scale-110 transition-transform" />
+                </div>
                 </a>
                 <p className="text-muted-foreground">
                   Dive deep into technical indicators, chart patterns, and advanced strategies to make informed trading decisions.
