@@ -81,7 +81,7 @@ function App() {
             </Card>
 
             {/* VIP Discord */}
-            <Card className="hover-lift border-2 border-primary/50 hover:border-primary transition-all duration-300 relative overflow-hidden">
+            <Card className="hover-lift border-2 border-primary/50 hover:border-primary transition-all duration-300 relative overflow-hidden vip-pulse">
               <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-4 py-1 text-sm font-semibold">
                 VIP
               </div>
@@ -249,6 +249,9 @@ function App() {
           </p>
           <p className="text-muted-foreground mt-2">
             Join The Way to Trading Success
+          </p>
+          <p className="text-xs text-muted-foreground mt-4 max-w-3xl mx-auto">
+            Trading involves risk. Way Trades is for educational purposes only and is not financial advice.
           </p>
         </div>
       </footer>
