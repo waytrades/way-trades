@@ -25,7 +25,7 @@ function App() {
               Join The Way to Trading Success
             </p>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl animate-slide-in-up animation-delay-300">
-              Our mission is simple: to transform traders into consistent, disciplined, and independent professionals. Whether you're a beginner or a struggling intermediate, we provide the knowledge and expertise you need to succeed on your own.
+              Our mission is simple: to transform traders into consistent, disciplined, and independent professionals. Whether you're a beginner or a struggling intermediate, we provide the knowledge and expertise you need to succeed with our guidance.
             </p>
           </div>
         </div>
