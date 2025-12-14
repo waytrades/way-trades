@@ -103,3 +103,16 @@
   height: 1px;
 }
 
+/* Custom Animations for VIP Card */
+@keyframes pulse-shadow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.4); /* Gold color with low opacity */
+  }
+  50% {
+    box-shadow: 0 0 15px 5px rgba(255, 215, 0, 0.8); /* Gold color with high opacity */
+  }
+}
+
+.vip-pulse {
+  animation: pulse-shadow 2s infinite ease-in-out;
+}
