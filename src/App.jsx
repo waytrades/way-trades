@@ -31,7 +31,7 @@ function App() {
         </div>
       </header>
 
-      {/* Discord Servers Section */}
+      {/* Membership Pricing Section (Redesigned) */}
       <section className="py-16 md:py-24 bg-card/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -40,37 +40,92 @@ function App() {
               Join Our Community
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Connect with fellow traders, get real-time market insights, and access exclusive trading resources.
+              Unlock your full trading potential with our Free Community or upgrade to VIP Membership.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Free Discord */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* Free Community Card */}
             <Card className="hover-lift border-2 border-border hover:border-primary/50 transition-all duration-300">
-              <CardHeader>
-                <CardTitle className="text-2xl flex items-center gap-2">
-                  <Users className="w-6 h-6 text-primary" />
-                  Free Access
-                </CardTitle>
-                <CardDescription className="text-base">
-                  Start your trading journey with our free community
-                </CardDescription>
+              <CardHeader className="bg-primary/10 rounded-t-lg">
+                <div className="flex items-center justify-center mb-2">
+                  <Users className="w-10 h-10 text-primary" />
+                </div>
+                <CardTitle className="text-3xl text-center text-primary">FREE COMMUNITY</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <ul className="space-y-2 text-muted-foreground">
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Basic market analysis and insights</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Community discussions and support</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Educational resources for beginners</span>
-                  </li>
-                </ul>
+              <CardContent className="space-y-6 p-6">
+                <div className="space-y-3">
+                  <h3 className="text-xl font-bold text-foreground border-b border-border pb-2">INCLUDES</h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Full Video Courses</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Motivational Insights</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Admin Commentary</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Free Live Classes + Q&A's</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Trading Chat</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Long-Term Stock Ideas</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-bold text-red-500 border-b border-border pb-2">DOES NOT INCLUDE</h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Morning Watchlists</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Swing Trade Signals</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Options only channel</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Futures only channel</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Live Day Trading Signals</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Trade Recaps</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Bonus Charts & Analysis</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Full Access to Our Strategy</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-red-500 mr-2">✕</span>
+                      <span>Exclusive Live Classes + Q&A's</span>
+                    </li>
+                  </ul>
+                </div>
+
                 <Button 
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                   onClick={() => window.open('https://whop.com/waytrades/free-access-c6/', '_blank' )}
@@ -80,40 +135,98 @@ function App() {
               </CardContent>
             </Card>
 
-            {/* VIP Discord */}
+            {/* VIP Membership Card */}
             <Card className="hover-lift border-2 border-primary/50 hover:border-primary transition-all duration-300 relative overflow-hidden vip-pulse">
-              <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-4 py-1 text-sm font-semibold">
-                VIP
-              </div>
-              <CardHeader>
-                <CardTitle className="text-2xl flex items-center gap-2">
-                  <TrendingUp className="w-6 h-6 text-primary" />
-                  VIP Access
-                </CardTitle>
-                <CardDescription className="text-base">
-                  Unlock premium features and exclusive content
-                </CardDescription>
+              <CardHeader className="bg-yellow-500/10 rounded-t-lg">
+                <div className="flex items-center justify-center mb-2">
+                  <TrendingUp className="w-10 h-10 text-yellow-500" />
+                </div>
+                <CardTitle className="text-3xl text-center text-yellow-500">VIP MEMBERSHIP</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <ul className="space-y-2 text-muted-foreground">
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Advanced trading signals and strategies</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Direct access to expert traders</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Exclusive market analysis and reports</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2">✓</span>
-                    <span>Priority support and personalized guidance</span>
-                  </li>
-                </ul>
-                <p className="text-center text-primary font-bold text-lg mb-4">INCLUDES A 3-DAY FREE TRIAL FOR VIP ACCESS!</p>
+              <CardContent className="space-y-6 p-6">
+                <div className="space-y-3">
+                  <h3 className="text-xl font-bold text-foreground border-b border-border pb-2">INCLUDES</h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Full Video Courses</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Motivational Insights</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Admin Commentary</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Free Live Classes + Q&A's</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Trading Chat</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-primary mr-2">✓</span>
+                      <span>Long-Term Stock Ideas</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-bold text-yellow-500 border-b border-border pb-2">PLUS</h3>
+                  <ul className="space-y-2 text-muted-foreground">
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Morning Watchlists</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Swing Trade Signals</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Options only channel</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Futures only channel</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Live Day Trading Signals</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Trade Recaps</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Bonus Charts & Analysis</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Full Access to Our Strategy</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Exclusive Live Classes + Q&A's</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-yellow-500 mr-2">✓</span>
+                      <span>Priority Support & Guidance</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="text-center space-y-2 pt-4">
+                  <h3 className="text-2xl font-bold text-yellow-500">PRICING</h3>
+                  <p className="text-xl font-semibold text-foreground">$74/month</p>
+                  <p className="text-lg text-muted-foreground">$210/3 months (Save 5%)</p>
+                  <p className="text-lg text-muted-foreground">$728/year (Save 18%)</p>
+                </div>
+
                 <Button 
                   className="w-full gradient-gold hover:opacity-90 text-background font-semibold"
                   onClick={() => window.open('https://whop.com/waytrades/vip-access-60-1cb2/?utm_source=store_page&funnelId=product_7b3b2e38-8bc7-402b-9afa-d939c94b9673', '_blank' )}
