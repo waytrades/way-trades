@@ -25,7 +25,7 @@ function App() {
               Join The Way to Trading Success
             </p>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl animate-slide-in-up animation-delay-300">
-              This community was built with one goal in mind and that is to create consistent and disciplined traders who are able to take the knowledge and skillsets they've accumulated from our resources and expertise to be able to do it on their own. Wether you're a brand new trader or a struggling intermediate, we've got you covered.
+              Our mission is simple: to transform traders into consistent, disciplined, and independent professionals. Whether you're a beginner or a struggling intermediate, we provide the knowledge and expertise you need to succeed on your own.
             </p>
           </div>
         </div>
@@ -248,7 +248,7 @@ function App() {
               Free Educational Courses
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Comprehensive video courses designed to take you from beginner to advanced trader.
+              Comprehensive video courses designed for beginners to build a strong, profitable foundation.
             </p>
           </div>
 
