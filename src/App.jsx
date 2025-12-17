@@ -315,10 +315,10 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
-              Trade Smarter with Alpha Futures
+              Our Recommended Prop Firm: Alpha Futures
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-6">
-              Ready to take your trading to the next level? We've partnered with Alpha Futures to give you access to the best trading tools and resources.
+              We only partner with the best. Use our exclusive code to get the maximum discount when you sign up with one of the industry's premier prop trading firms.
             </p>
             <div className="flex flex-col items-center space-y-4">
               <p className="text-2xl font-bold text-foreground">
