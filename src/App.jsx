@@ -310,6 +310,35 @@ function App() {
         </div>
       </section>
 
+      {/* Alpha Futures Affiliate Section */}
+      <section className="py-16 md:py-24 bg-primary/10">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
+              Trade Smarter with Alpha Futures
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-6">
+              Ready to take your trading to the next level? We've partnered with Alpha Futures to give you access to the best trading tools and resources.
+            </p>
+            <div className="flex flex-col items-center space-y-4">
+              <p className="text-2xl font-bold text-foreground">
+                Use Code: <span className="text-primary bg-primary/20 px-3 py-1 rounded-lg">WAY</span>
+              </p>
+              <p className="text-sm text-muted-foreground">
+                This code ensures you get the best available discount at the time of purchase.
+              </p>
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-10 py-7 text-xl hover-lift"
+                onClick={() => window.open('https://app.alpha-futures.com/signup/WAY/', '_blank' )}
+              >
+                Sign Up with Alpha Futures
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Social Media Section */}
       <section className="py-16 md:py-24 bg-card/30">
         <div className="container mx-auto px-4">
