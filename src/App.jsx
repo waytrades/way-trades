@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Instagram, Youtube, Music2, TrendingUp, BookOpen, Users } from 'lucide-react'
 import logo from './assets/logo.png'
-import alphaLogo from './assets/alpha_futures_logo.jpeg' // NEW IMPORT
+import alphaLogo from './assets/download.jpeg' // CORRECTED IMPORT
 import './App.css'
 
 function App() {
