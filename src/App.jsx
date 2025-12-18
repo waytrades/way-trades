@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Instagram, Youtube, Music2, TrendingUp, BookOpen, Users } from 'lucide-react'
 import logo from './assets/logo.png'
+import alphaLogo from './assets/alpha_futures_logo.jpeg' // NEW IMPORT
 import './App.css'
 
 function App() {
@@ -27,6 +28,27 @@ function App() {
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl animate-slide-in-up animation-delay-300">
               Our mission is simple: to transform traders into consistent, disciplined, and independent professionals. Whether you're a beginner or a struggling intermediate, we provide the knowledge and expertise you need to succeed with our guidance.
             </p>
+
+            {/* Live Trading Banner */}
+            <div className="bg-red-600/10 border border-red-600 text-red-400 p-4 rounded-lg max-w-xl w-full flex flex-col items-center space-y-3 animate-slide-in-up animation-delay-400">
+              <div className="flex items-center gap-3">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+                </span>
+                <h3 className="text-xl font-bold text-red-400">LIVE TRADING DAILY</h3>
+              </div>
+              <p className="text-sm text-center text-muted-foreground">
+                Join us on YouTube & TikTok every weekday at <span className="font-bold text-red-400">9:20 AM EST</span> to watch us trade the market in real-time.
+              </p>
+              <Button
+                size="sm"
+                className="bg-red-600 hover:bg-red-700 text-white font-semibold"
+                onClick={() => window.open('https://www.tiktok.com/@way_trades', '_blank' )}
+              >
+                Watch Live on TikTok
+              </Button>
+            </div>
           </div>
         </div>
       </header>
@@ -314,6 +336,7 @@ function App() {
       <section className="py-16 md:py-24 bg-primary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
+            <img src={alphaLogo} alt="Alpha Futures Logo" className="w-20 h-20 mx-auto mb-4 rounded-full" />
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
               Our Recommended Prop Firm: Alpha Futures
             </h2>
