@@ -28,30 +28,35 @@ function App() {
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl animate-slide-in-up animation-delay-300">
               Our mission is simple: to transform traders into consistent, disciplined, and independent professionals. Whether you're a beginner or a struggling intermediate, we provide the knowledge and expertise you need to succeed with our guidance.
             </p>
+          </div>
+        </div>
+      </header>
 
-            {/* Live Trading Banner */}
-            <div className="bg-red-600/10 border border-red-600 text-red-400 p-4 rounded-lg max-w-xl w-full flex flex-col items-center space-y-3 animate-slide-in-up animation-delay-400">
-              <div className="flex items-center gap-3">
-                <span className="relative flex h-3 w-3">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
-                </span>
-                <h3 className="text-xl font-bold text-red-400">LIVE TRADING DAILY</h3>
-              </div>
-              <p className="text-sm text-center text-muted-foreground">
-                Join us on YouTube & TikTok every weekday at <span className="font-bold text-red-400">9:20 AM EST</span> to watch us trade the market in real-time.
-              </p>
+      {/* Live Trading Schedule Section */}
+      <section className="py-12 md:py-16 bg-primary/5">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-4xl mx-auto p-6 border-2 border-yellow-500/50 rounded-xl shadow-lg bg-card">
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-yellow-500">
+              LIVE TRADING DAILY
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6">
+              Join us every weekday at <span className="font-bold text-yellow-500">9:20 AM EST</span> to watch us trade the market in real-time on both TikTok and YouTube.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              {/* Primary CTA: TikTok */}
               <Button
-                size="sm"
-                className="bg-red-600 hover:bg-red-700 text-white font-semibold"
+                size="lg"
+                className="flex items-center gap-3 bg-black hover:bg-gray-800 text-white font-semibold px-8 py-6 text-lg hover-lift"
                 onClick={() => window.open('https://www.tiktok.com/@way_trades', '_blank' )}
               >
+                <Music2 className="w-6 h-6" />
                 Watch Live on TikTok
               </Button>
             </div>
           </div>
         </div>
-      </header>
+      </section>
 
       {/* Membership Pricing Section (Redesigned) */}
       <section className="py-16 md:py-24 bg-card/30">
