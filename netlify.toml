@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  functions = "server"
+  publish = ".output/public"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+
+[env]
+  NUXT_PUBLIC_SANITY_PROJECT_ID = ""
+  NUXT_PUBLIC_SANITY_DATASET = "production"
+  NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = ""
+  STRIPE_SECRET_KEY = ""
+  NUXT_RESEND_API_KEY = ""
+  NUXT_PUBLIC_SITE_URL = ""
