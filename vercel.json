@@ -1,15 +1,6 @@
 {
+  "version": 2,
+  "framework": "nuxtjs",
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nuxt",
-  "outputDirectory": ".output/public",
-  "env": [
-    "NUXT_PUBLIC_SANITY_PROJECT_ID",
-    "NUXT_PUBLIC_SANITY_DATASET",
-    "NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY",
-    "STRIPE_SECRET_KEY",
-    "NUXT_RESEND_API_KEY",
-    "NUXT_PUBLIC_SITE_URL"
-  ]
+  "outputDirectory": ".output/public"
 }
