@@ -49,21 +49,11 @@
       </div>
 
       <!-- Stats Showcase -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-1 gap-8">
         <div class="bg-slate-800/50 border-2 border-primary/30 rounded-lg p-8 text-center hover:border-primary transition-all duration-300 hover:scale-105">
           <div class="text-5xl font-black text-primary mb-2">3:1</div>
           <p class="text-gray-300 font-semibold mb-2">Risk to Reward Ratio</p>
           <p class="text-gray-400 text-sm">Maximize profits while minimizing risk</p>
-        </div>
-        <div class="bg-slate-800/50 border-2 border-primary/30 rounded-lg p-8 text-center hover:border-primary transition-all duration-300 hover:scale-105">
-          <div class="text-5xl font-black text-primary mb-2">10K+</div>
-          <p class="text-gray-300 font-semibold mb-2">Active Traders</p>
-          <p class="text-gray-400 text-sm">Join a thriving community of profitable traders</p>
-        </div>
-        <div class="bg-slate-800/50 border-2 border-primary/30 rounded-lg p-8 text-center hover:border-primary transition-all duration-300 hover:scale-105">
-          <div class="text-5xl font-black text-primary mb-2">24/7</div>
-          <p class="text-gray-300 font-semibold mb-2">Live Trading</p>
-          <p class="text-gray-400 text-sm">See the strategy in action every trading day</p>
         </div>
       </div>
     </div>

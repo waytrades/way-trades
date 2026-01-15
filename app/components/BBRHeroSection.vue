@@ -56,18 +56,10 @@
       </div>
 
       <!-- Key Stats -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 w-full max-w-3xl">
+      <div class="grid grid-cols-1 md:grid-cols-1 gap-8 mb-12 w-full max-w-3xl">
         <div class="bg-slate-800/50 border-2 border-primary/30 rounded-lg p-6 text-center hover:border-primary transition-all duration-300 hover:scale-105">
           <div class="text-4xl font-black text-primary mb-2">3:1</div>
           <p class="text-gray-300 font-semibold">Risk to Reward Ratio</p>
-        </div>
-        <div class="bg-slate-800/50 border-2 border-primary/30 rounded-lg p-6 text-center hover:border-primary transition-all duration-300 hover:scale-105">
-          <div class="text-4xl font-black text-primary mb-2">10K+</div>
-          <p class="text-gray-300 font-semibold">Community Members</p>
-        </div>
-        <div class="bg-slate-800/50 border-2 border-primary/30 rounded-lg p-6 text-center hover:border-primary transition-all duration-300 hover:scale-105">
-          <div class="text-4xl font-black text-primary mb-2">24/7</div>
-          <p class="text-gray-300 font-semibold">Live Trading Support</p>
         </div>
       </div>
 

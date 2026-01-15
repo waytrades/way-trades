@@ -6,8 +6,7 @@
     <!-- Features Section -->
     <BBRFeaturesSection />
 
-    <!-- Testimonials Section -->
-    <TestimonialsSection />
+
 
     <!-- Footer -->
     <footer class="bg-slate-900 border-t border-primary/20 py-12">
