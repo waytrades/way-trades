@@ -1,33 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  
-  css: ['~/assets/css/main.css'],
-  
-  modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-icon',
-  ],
-  
-  runtimeConfig: {
-    public: {
-      sanityProjectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID,
-      sanityDataset: process.env.NUXT_PUBLIC_SANITY_DATASET || 'production',
-      stripePublishableKey: process.env.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
-      resendApiKey: process.env.NUXT_RESEND_API_KEY,
-    },
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon'],
+  sanity: {
+    projectId: process.env.NUXT_PUBLIC_SANITY_PROJECT_ID,
+    dataset: process.env.NUXT_PUBLIC_SANITY_DATASET,
+    useCdn: true
   },
-
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: ['/sitemap.xml', '/robots.txt'],
-    },
+  future: {
+    compatibilityVersion: 4,
   },
-
-  experimental: {
-    payloadExtraction: false,
-    renderJsonPayload: true,
-  },
+  // This line definitively removes the welcome page
+  features: {
+    inlineStyles: false
+  }
 })
