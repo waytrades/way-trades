@@ -1,8 +1,6 @@
 <template>
   <section class="relative py-20 bg-gradient-to-b from-slate-900 to-slate-950 overflow-hidden">
-    <!-- Decorative Elements -->
-    <div class="absolute top-20 left-10 w-8 h-8 border-2 border-primary/50 animate-pulse"></div>
-    <div class="absolute bottom-10 right-20 w-6 h-6 bg-primary/30 animate-bounce"></div>
+
 
     <div class="container mx-auto px-4">
       <!-- Section Title -->
@@ -80,12 +78,12 @@ const features = [
   {
     icon: '📈',
     title: 'Proven Results',
-    description: 'Thousands of traders have used BBR to become profitable and pass funded accounts.'
+    description: 'Our traders have used BBR to become profitable and pass funded accounts.'
   },
   {
     icon: '🤝',
     title: 'Community Support',
-    description: 'Trade alongside thousands of other BBR traders in our active Discord community.'
+    description: 'Trade alongside our traders in our active Discord community.'
   },
   {
     icon: '🎓',

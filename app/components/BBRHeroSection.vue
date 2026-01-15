@@ -1,15 +1,6 @@
 <template>
   <section class="relative min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 overflow-hidden">
-    <!-- Animated Background Elements -->
-    <div class="absolute inset-0 opacity-20">
-      <div class="absolute top-0 left-0 w-96 h-96 bg-primary rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
-      <div class="absolute bottom-0 right-0 w-96 h-96 bg-primary/50 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
-    </div>
 
-    <!-- Decorative Squares -->
-    <div class="absolute top-10 left-10 w-8 h-8 border-2 border-primary animate-bounce"></div>
-    <div class="absolute top-20 right-20 w-6 h-6 bg-primary/50 animate-pulse"></div>
-    <div class="absolute bottom-32 left-20 w-4 h-4 bg-primary"></div>
 
     <!-- Content -->
     <div class="relative z-10 container mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen">
@@ -81,14 +72,7 @@
         </a>
       </div>
 
-      <!-- Secondary CTA -->
-      <p class="text-gray-400 text-center mb-6">or</p>
-      <a 
-        href="#testimonials"
-        class="text-primary font-bold text-lg hover:text-primary/80 transition-colors duration-300 underline"
-      >
-        See What Our Traders Say ↓
-      </a>
+
     </div>
 
     <!-- Scroll Indicator -->
