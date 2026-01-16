@@ -2,11 +2,9 @@
   <div class="min-h-screen bg-slate-950 text-white font-sans selection:bg-yellow-500 selection:text-slate-950">
     <!-- Navigation -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
-      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div class="flex items-center gap-2">
-          <div class="w-8 h-8 bg-yellow-500 rounded-sm flex items-center justify-center">
-            <span class="text-slate-950 font-black text-xl">W</span>
-          </div>
+      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <img src="/images/logo.png" alt="Way Trades Logo" class="w-12 h-12 object-contain" />
           <span class="text-xl font-black tracking-tighter">WAY TRADES</span>
         </div>
         <div class="hidden md:flex items-center gap-8 text-sm font-bold text-gray-400">
@@ -22,18 +20,22 @@
     <header class="relative pt-20 pb-32 overflow-hidden">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-500/10 via-transparent to-transparent -z-10"></div>
       <div class="container mx-auto px-4 text-center">
-        <h1 class="text-5xl md:text-8xl font-black tracking-tighter mb-6">
+        <div class="inline-flex items-center gap-2 bg-yellow-500/10 text-yellow-500 px-4 py-2 rounded-full text-sm font-bold mb-8 border border-yellow-500/20">
+          <Icon name="lucide:calculator" class="w-4 h-4" />
+          MATHEMATICALLY PROVEN 1:3 RISK:REWARD
+        </div>
+        <h1 class="text-5xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.9]">
           THE <span class="text-yellow-500">WAY</span> TO TRADING SUCCESS
         </h1>
         <p class="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
-          Transforming traders into consistent, disciplined professionals using the mathematically proven <span class="text-white font-bold">BBR Strategy</span>.
+          Stop chasing 90% win rates. We use the <span class="text-white font-bold">BBR Strategy</span> to dominate the markets with a sustainable <span class="text-yellow-500 font-bold">1:3 Risk:Reward</span> model.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="https://whop.com/waytrades/free-access-c6/" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-slate-950 font-black py-5 px-10 rounded-lg transition-all transform hover:scale-105 text-xl shadow-[0_0_20px_rgba(234,179,8,0.3)]">
             START TRADING FOR FREE
           </a>
           <a href="#strategy" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-5 px-10 rounded-lg transition-all border border-slate-800 text-xl">
-            LEARN THE MATH
+            SEE THE MATH
           </a>
         </div>
       </div>
@@ -148,10 +150,8 @@
     <!-- Footer -->
     <footer class="py-12 border-t border-slate-800 bg-slate-950">
       <div class="container mx-auto px-4 text-center">
-        <div class="flex items-center justify-center gap-2 mb-6">
-          <div class="w-6 h-6 bg-yellow-500 rounded-sm flex items-center justify-center">
-            <span class="text-slate-950 font-black text-sm">W</span>
-          </div>
+        <div class="flex items-center justify-center gap-3 mb-6">
+          <img src="/images/logo.png" alt="Way Trades Logo" class="w-10 h-10 object-contain" />
           <span class="text-lg font-black tracking-tighter">WAY TRADES</span>
         </div>
         <p class="text-gray-500 text-sm max-w-2xl mx-auto mb-8">
