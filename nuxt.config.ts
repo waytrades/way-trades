@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   future: {
-    compatibilityVersion: 4,
+    compatibilityVersion: 4, ssr: true,
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sanity', '@nuxt/icon'],
   sanity: {
