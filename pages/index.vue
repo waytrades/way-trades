@@ -24,9 +24,6 @@
           <Icon name="lucide:calculator" class="w-4 h-4" />
           MATHEMATICALLY PROVEN 1:3 RISK:REWARD
         </div>
-        <h1 class="text-5xl md:text-8xl font-black tracking-tighter mb-6 leading-[0.9]">
-          THE <span class="text-yellow-500">WAY</span> TO TRADING SUCCESS
-        </h1>
         <p class="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed">
           Stop chasing 90% win rates. We use the <span class="text-white font-bold">BBR Strategy</span> to dominate the markets with a sustainable <span class="text-yellow-500 font-bold">1:3 Risk:Reward</span> model.
         </p>
